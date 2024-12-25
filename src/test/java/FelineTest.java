@@ -46,9 +46,4 @@ public class FelineTest {
     public void testGetKittens_Default() {
         assertEquals(1, feline.getKittens()); // Проверяем, что по умолчанию возвращается 1
     }
-
-    @Test
-    public void testGetKittens_WithParameter() {
-        assertEquals(5, feline.getKittens(5)); // Проверяем, что возвращается переданное значение
-    }
 }

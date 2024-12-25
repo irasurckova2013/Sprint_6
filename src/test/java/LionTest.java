@@ -2,7 +2,6 @@ import com.example.Feline;
 import com.example.Lion;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
@@ -22,9 +21,6 @@ public class LionTest {
 
     private Lion lion;
 
-    public void init() {
-        MockitoAnnotations.initMocks(this);
-    }
 
     @Test
     public void testConstructor_SexMale() throws Exception {

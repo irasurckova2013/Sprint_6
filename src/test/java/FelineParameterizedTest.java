@@ -39,9 +39,4 @@ public class FelineParameterizedTest {
     public void testGetKittens_WithParameter() {
         assertEquals(expectedKittensCount, feline.getKittens(inputKittensCount));
     }
-
-    @Test
-    public void testGetKittens_Default() {
-        assertEquals(1, feline.getKittens()); // Проверяем, что по умолчанию возвращается 1
-    }
 }
